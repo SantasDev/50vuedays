@@ -1,6 +1,9 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView, useRouter } from 'vue-router'
 import HelloWorld from './components/welcome/HelloWorld.vue'
+
+const router = useRouter();
+const routes = router.getRoutes();
 </script>
 
 <template>
@@ -11,8 +14,7 @@ import HelloWorld from './components/welcome/HelloWorld.vue'
       <HelloWorld msg="You did it!" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/expand-cards">expand cards</RouterLink>
+        <RouterLink v-for="(route, index) in routes" :key="index" :to="route.path">{{ route.name }}</RouterLink>
       </nav>
     </div>
   </header>
