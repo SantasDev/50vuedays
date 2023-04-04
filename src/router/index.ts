@@ -21,6 +21,11 @@ const router = createRouter({
       path: '/progress-steps',
       name: 'ProgressStepsView',
       component: () => import('../views/ProgressStepsView.vue'),
+    },
+    {
+      path: '/rotating-navigation',
+      name: 'RotatingNavigationView',
+      component: () => import('../views/RotatingNavigationView.vue'),
     }
   ]
 })
