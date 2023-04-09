@@ -31,6 +31,11 @@ const router = createRouter({
       path: '/search-widget',
       name: 'SerachWidgetView',
       component: () => import('../views/SearchWidgetView.vue'),
+    },
+    {
+      path: '/blur-image',
+      name: 'BlurImageView',
+      component: () => import('../views/BlurImageView.vue'),
     }
   ]
 })

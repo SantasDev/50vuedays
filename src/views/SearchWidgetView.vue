@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h3>search-widget</h3>
     <search-widget />
   </div>
 </template>
