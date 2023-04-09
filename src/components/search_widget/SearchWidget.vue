@@ -2,7 +2,7 @@
   <div class="sw_search" :class="{'active': isActiveSearch}">
       <input ref="input" type="text" class="input" placeholder="Search...">
       <button class="btn" @click="activeSearch">
-        <i class="fas fa-search"></i>
+        <i class="fa fa-search"></i>
       </button>
     </div>
 </template>
