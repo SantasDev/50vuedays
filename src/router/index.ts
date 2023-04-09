@@ -26,6 +26,11 @@ const router = createRouter({
       path: '/rotating-navigation',
       name: 'RotatingNavigationView',
       component: () => import('../views/RotatingNavigationView.vue'),
+    },
+    {
+      path: '/search-widget',
+      name: 'SerachWidgetView',
+      component: () => import('../views/SearchWidgetView.vue'),
     }
   ]
 })
