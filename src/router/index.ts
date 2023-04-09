@@ -36,6 +36,11 @@ const router = createRouter({
       path: '/blur-image',
       name: 'BlurImageView',
       component: () => import('../views/BlurImageView.vue'),
+    },
+    {
+      path: '/scroll-animation',
+      name: 'ScrollAnimationView',
+      component: () => import('../views/ScrollAnimationView.vue'),
     }
   ]
 })
