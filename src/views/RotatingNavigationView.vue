@@ -3,7 +3,7 @@
     <h3 style="margin-bottom: 40px;">rotating navigation</h3>
     <rotating-navigation :menu-items="menuItems">
       <h3>Explore The World</h3>
-      <img src="https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" height="100px"/>
+      <img src="https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" height="500"/>
     </rotating-navigation>
   </div>
 </template>

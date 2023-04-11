@@ -29,7 +29,7 @@ const router = createRouter({
     },
     {
       path: '/search-widget',
-      name: 'SerachWidgetView',
+      name: 'SearchWidgetView',
       component: () => import('../views/SearchWidgetView.vue'),
     },
     {
