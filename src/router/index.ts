@@ -51,6 +51,11 @@ const router = createRouter({
       path: '/wave-form',
       name: 'WaveFormView',
       component: () => import('../views/WaveFormView.vue'),
+    },
+    {
+      path: '/sound-board',
+      name: 'SoundBoardView',
+      component: () => import('../views/SoundBoardView.vue'),
     }
   ]
 })
