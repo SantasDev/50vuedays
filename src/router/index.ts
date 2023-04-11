@@ -41,6 +41,11 @@ const router = createRouter({
       path: '/scroll-animation',
       name: 'ScrollAnimationView',
       component: () => import('../views/ScrollAnimationView.vue'),
+    },
+    {
+      path: '/split-page',
+      name: 'SplitPageView',
+      component: () => import('../views/SplitPageView.vue'),
     }
   ]
 })
