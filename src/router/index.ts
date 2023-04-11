@@ -56,6 +56,11 @@ const router = createRouter({
       path: '/sound-board',
       name: 'SoundBoardView',
       component: () => import('../views/SoundBoardView.vue'),
+    },
+    {
+      path: '/dad-joke',
+      name: 'DadJokeView',
+      component: () => import('../views/DadJokeView.vue'),
     }
   ]
 })
