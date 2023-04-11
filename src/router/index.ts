@@ -46,6 +46,11 @@ const router = createRouter({
       path: '/split-page',
       name: 'SplitPageView',
       component: () => import('../views/SplitPageView.vue'),
+    },
+    {
+      path: '/wave-form',
+      name: 'WaveFormView',
+      component: () => import('../views/WaveFormView.vue'),
     }
   ]
 })
