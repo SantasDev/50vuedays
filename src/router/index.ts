@@ -61,6 +61,11 @@ const router = createRouter({
       path: '/dad-joke',
       name: 'DadJokeView',
       component: () => import('../views/DadJokeView.vue'),
+    },
+    {
+      path: '/key-codes',
+      name: 'KeyCodesView',
+      component: () => import('../views/KeyCodesView.vue'),
     }
   ]
 })
